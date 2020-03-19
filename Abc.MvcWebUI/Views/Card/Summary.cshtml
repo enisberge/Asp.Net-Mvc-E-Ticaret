@@ -1,0 +1,22 @@
+﻿@using Abc.MvcWebUI.Models
+@model CardModel
+
+<style>
+    #card {
+        color: white;
+    }
+</style>
+<ul class="navbar-nav my-2 my-lg-0">
+
+    <li id="card" class="nav-item active">
+        <a class="nav-link" href="/Card">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            (@Model.Cardlines.Count)
+        </a>
+       
+    </li>
+   
+
+</ul>
+
+
